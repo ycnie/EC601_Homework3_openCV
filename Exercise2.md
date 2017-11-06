@@ -1,6 +1,7 @@
-1. ColorImage.cpp is a program that takes a look at colorspace conversions in OpenCV. Run the code in ColorImage.cpp and comment on the outputs. Implement the same thing in Python and save each image.
+### 1. ColorImage.cpp is a program that takes a look at colorspace conversions in OpenCV. Run the code in ColorImage.cpp and comment on the outputs. Implement the same thing in Python and save each image.
 
 
+```cpp
 //click on the New button to download an OpenCV template to begin.
 #include "opencv2/core/core.hpp"
 #include "opencv2/highgui/highgui.hpp"
@@ -49,12 +50,15 @@ int main(int argc, char** argv )
     return 0;
 } 
 
+```
 
 
-
-2. Print out the values of the pixel at (20,25) in the RGB, YCbCr and HSV versions of the image. What are the ranges of pixel values in each channel of each of the above mentioned colorspaces?
+### 2. Print out the values of the pixel at (20,25) in the RGB, YCbCr and HSV versions of the image. What are the ranges of pixel values in each channel of each of the above mentioned colorspaces?
 
 r[20,25] =  225 g[20,25] =  122 b[20,25] =  106
+
 h[20,25] =  4 s[20,25] =  135 v[20,25] =  225
+
 y[20,25] =  151 cb[20,25] =  181 cr[20,25] =  103
+
 0-225
