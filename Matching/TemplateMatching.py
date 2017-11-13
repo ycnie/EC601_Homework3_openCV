@@ -41,11 +41,11 @@ def TemplateMatching(src, temp, stepsize): # src: source image, temp: template i
                     #print("temp",k-i,v-j,temp[k-i,v-j])
                     corr += (src[k,v] - mean_s) * (temp[k-i,v-j] - mean_t)
             corr /= (var_s * var_t * temp.shape[0] * temp.shape[1])
-            print(corr)
+            #print(corr)
             if corr > max_corr:
                 max_corr = corr;
                 location = [i, j];
-                print(location)
+                #print(location)
     return location
 
 # load source and template images
